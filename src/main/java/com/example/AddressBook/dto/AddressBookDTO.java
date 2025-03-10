@@ -10,6 +10,8 @@ import lombok.Setter;
 @Setter
 public class AddressBookDTO {
     @NotEmpty(message = "Name cannot be empty")
+    private Long id;
+    @NotEmpty(message = "Name cannot be empty")
     private String name;
 
     @NotEmpty(message = "Address cannot be empty")
