@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.9</version>
+		<version>3.2.4</version>  <!-- ✅ Fixed Spring Boot version -->
 		<relativePath/>
 	</parent>
 
@@ -17,8 +19,9 @@
 	<description>Project for Spring Boot</description>
 
 	<properties>
-		<java.version>17</java.version> <!-- Ensure this matches your actual JDK version -->
+		<java.version>17</java.version>  <!-- Ensure Java 17 is installed -->
 	</properties>
+
 	<dependencies>
 		<!-- Spring Boot Starters -->
 		<dependency>
@@ -51,7 +54,7 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<scope>test</scope>  <!-- Changed to 'test' scope to avoid conflicts -->
+			<scope>test</scope>  <!-- ✅ Changed to avoid conflicts -->
 		</dependency>
 
 		<!-- Hibernate Validator -->
@@ -94,20 +97,36 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- Lombok (Single declaration with annotation processor) -->
+		<!-- Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- ✅ Added version -->
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- ✅ Added version -->
 			<scope>annotationProcessor</scope>
 		</dependency>
 
-	</dependencies>
+		<!-- Redis & Caching -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
 
+		<!-- RabbitMQ -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>

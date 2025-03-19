@@ -7,93 +7,84 @@ import com.example.AddressBook.model.AuthUser;
 import com.example.AddressBook.repository.AddressBookRepository;
 import com.example.AddressBook.repository.UserRepository;
 import com.example.AddressBook.service.IAddressBookService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import com.example.AddressBook.service.RabbitMQSender;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class AddressBookServiceImpl implements IAddressBookService {
 
-    private final AddressBookRepository repository;
-    private final UserRepository userRepository;
+    @Autowired
+    private AddressBookRepository repository;
 
-    public AddressBookServiceImpl(AddressBookRepository repository, UserRepository userRepository) {
-        this.repository = repository;
-        this.userRepository = userRepository;
-    }
+    @Autowired
+    private RabbitMQSender messagePublisher;
 
-    private AuthUser getAuthenticatedUser() {
-        UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        return userRepository.findByEmail(userDetails.getUsername())
-                .orElseThrow(() -> new UsernameNotFoundException("User not found"));
+    @Autowired
+    private UserRepository authUserRepository;
+
+    @Override
+    @Cacheable(value = "addressBookCache", key = "'allEntries'")
+    public List<AddressBook> getAllEntries() {
+        return repository.findAll();
     }
 
     @Override
+    @Cacheable(value = "addressBookCache", key = "#id")
+    public AddressBook getEntryById(Long id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new AddressBookException("Entry not found"));
+    }
+
+    @Override
+    @CacheEvict(value = "addressBookCache", allEntries = true)
     public AddressBook addEntry(AddressBookDTO dto) {
-        AuthUser user = getAuthenticatedUser();
+        if (dto.getUserId() == null || dto.getUserId() <= 0) {
+            throw new AddressBookException("Invalid User ID: " + dto.getUserId());
+        }
+
+        AuthUser user = authUserRepository.findById(dto.getUserId())
+                .orElseThrow(() -> new AddressBookException("User not found with ID: " + dto.getUserId()));
+
         AddressBook entry = new AddressBook();
-        entry.setId(dto.getId());
         entry.setName(dto.getName());
         entry.setAddress(dto.getAddress());
         entry.setPhoneNumber(dto.getPhoneNumber());
-        entry.setUser(user); // Associate with logged-in user
-        return repository.save(entry);
+        entry.setUser(user);
+
+        AddressBook savedEntry = repository.save(entry);
+
+        // 🔥 Debugging output
+        System.out.println("Saved AddressBook ID: " + savedEntry.getId());
+
+        messagePublisher.sendMessage("address.book.queue", "New contact added: " + entry.getName());
+
+        return savedEntry;
     }
 
     @Override
-    public AddressBook addEntry(AddressBookDTO dto, AuthUser user) {
-        return null;
-    }
-
-    @Override
-    public List<AddressBook> getAllEntries() {
-        AuthUser user = getAuthenticatedUser();
-        if ("ADMIN".equals(Optional.ofNullable(user.getRole()).orElse(""))) {
-            return repository.findAll(); // Admin can access all contacts
-        }
-        return repository.findByUser(user); // Regular users only see their own contacts
-    }
-
-    @Override
-    public AddressBook getEntryById(Long id) {
-        AddressBook entry = repository.findById(id)
-                .orElseThrow(() -> new AddressBookException("Entry not found"));
-
-        AuthUser user = getAuthenticatedUser();
-        if (!entry.getUser().equals(user) && !"ADMIN".equals(Optional.ofNullable(user.getRole()).orElse(""))) {
-            throw new AddressBookException("Unauthorized access!");
-        }
-        return entry;
-    }
-
-    @Override
+    @CachePut(value = "addressBookCache", key = "#id")
     public AddressBook updateEntry(Long id, AddressBookDTO dto) {
         AddressBook entry = getEntryById(id);
-        AuthUser user = getAuthenticatedUser();
-
-        if (!entry.getUser().equals(user) && !"ADMIN".equals(Optional.ofNullable(user.getRole()).orElse(""))) {
-            throw new AddressBookException("Unauthorized update attempt!");
-        }
-
         entry.setName(dto.getName());
         entry.setAddress(dto.getAddress());
         entry.setPhoneNumber(dto.getPhoneNumber());
+
+        AuthUser user = authUserRepository.findById(dto.getUserId())
+                .orElseThrow(() -> new AddressBookException("User not found with ID: " + dto.getUserId()));
+
+        entry.setUser(user);
         return repository.save(entry);
     }
 
     @Override
+    @CacheEvict(value = "addressBookCache", key = "#id")
     public void deleteEntry(Long id) {
-        AddressBook entry = getEntryById(id);
-        AuthUser user = getAuthenticatedUser();
-
-        if (!entry.getUser().equals(user) && !"ADMIN".equals(Optional.ofNullable(user.getRole()).orElse(""))) {
-            throw new AddressBookException("Unauthorized delete attempt!");
-        }
-
         repository.deleteById(id);
     }
 }
