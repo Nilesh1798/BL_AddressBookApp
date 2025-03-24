@@ -10,28 +10,32 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 @Entity
 @Table(name = "users")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class AuthUser implements UserDetails {
+public class AuthUser implements UserDetails, Serializable { // ✅ Explicitly implementing UserDetails
+
+    private static final long serialVersionUID = 1L; // ✅ Fixes serialization issue
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotBlank(message = "First name cannot be empty")
-    @Pattern(regexp = "^[A-Z][a-z]+$", message = "First letter must be uppercase")
+    @Pattern(regexp = "^[A-Z][a-z]+(?: [A-Z][a-z]+)*$", message = "Each word must start with an uppercase letter")
     private String firstName;
 
     @NotBlank(message = "Last name cannot be empty")
-    @Pattern(regexp = "^[A-Z][a-z]+$", message = "First letter must be uppercase")
+    @Pattern(regexp = "^[A-Z][a-z]+(?: [A-Z][a-z]+)*$", message = "Each word must start with an uppercase letter")
     private String lastName;
 
     @Email(message = "Invalid email format")
@@ -45,9 +49,10 @@ public class AuthUser implements UserDetails {
     private String role = "USER";
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonIgnore
+    @JsonIgnore // ✅ Prevent infinite recursion when serializing
     private List<AddressBook> contacts = new ArrayList<>();
 
+    // ✅ Implementing UserDetails methods
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority("ROLE_" + role));
@@ -55,7 +60,7 @@ public class AuthUser implements UserDetails {
 
     @Override
     public String getUsername() {
-        return email;
+        return email; // ✅ Uses email as username
     }
 
     @Override

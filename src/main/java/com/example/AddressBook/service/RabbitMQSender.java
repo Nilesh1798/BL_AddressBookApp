@@ -16,8 +16,12 @@ public class RabbitMQSender {
         this.rabbitTemplate = rabbitTemplate;
     }
 
-    public void sendMessage(String message, String s) {
-        rabbitTemplate.convertAndSend(queueName, message);
-        System.out.println("📩 Sent message: " + message);
+    public void sendMessage(String message) {
+        try {
+            rabbitTemplate.convertAndSend(queueName, message);
+            System.out.println("📩 Sent message: " + message);
+        } catch (Exception e) {
+            System.err.println("❌ Failed to send message: " + e.getMessage());
+        }
     }
 }
