@@ -1,62 +1,14 @@
-2025-03-24T15:25:44.474+05:30  INFO 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 17888 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T15:25:44.486+05:30 DEBUG 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T15:25:44.488+05:30  INFO 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T15:25:51.966+05:30 DEBUG 17888 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T15:25:53.986+05:30  INFO 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 10.259 seconds (process running for 11.004)
-2025-03-24T15:25:54.001+05:30  INFO 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T15:25:54.012+05:30  INFO 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T15:25:54.015+05:30  INFO 17888 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T15:38:44.090+05:30  WARN 17888 --- [AddressBook] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m26s424ms920µs500ns).
-2025-03-24T20:48:51.220+05:30  INFO 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 19640 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T20:48:51.222+05:30 DEBUG 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T20:48:51.223+05:30  INFO 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T20:48:56.777+05:30 DEBUG 19640 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T20:48:58.275+05:30  INFO 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 7.511 seconds (process running for 8.349)
-2025-03-24T20:48:58.278+05:30  INFO 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T20:48:58.281+05:30  INFO 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T20:48:58.281+05:30  INFO 19640 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T20:49:26.039+05:30  INFO 19640 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T20:49:26.273+05:30  INFO 19640 --- [AddressBook] [http-nio-8080-exec-2] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T20:49:26.273+05:30  INFO 19640 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T20:49:26.443+05:30  INFO 19640 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:51:04.887+05:30  INFO 19640 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:55:37.119+05:30  INFO 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 23324 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T20:55:37.122+05:30 DEBUG 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T20:55:37.124+05:30  INFO 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T20:55:42.300+05:30 DEBUG 23324 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T20:55:43.812+05:30  INFO 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 7.248 seconds (process running for 7.835)
-2025-03-24T20:55:43.816+05:30  INFO 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T20:55:43.821+05:30  INFO 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T20:55:43.821+05:30  INFO 23324 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T20:56:01.744+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T20:56:01.971+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-2] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T20:56:01.972+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T20:56:02.054+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:56:45.548+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:56:50.855+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:57:25.653+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:57:27.258+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:58:56.858+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:59:10.925+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:59:14.615+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:59:17.041+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T20:59:47.319+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:02:12.870+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:02:13.722+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:02:14.417+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:02:14.976+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:02:15.546+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:02:21.417+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:05:10.541+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:05:19.482+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:05:31.270+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:05:50.046+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T21:05:50.112+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-7] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T21:05:50.112+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T21:05:50.150+05:30  INFO 23324 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:08:22.696+05:30 ERROR 23324 --- [AddressBook] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-03-26T15:06:37.165+05:30  INFO 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 14128 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
+2025-03-26T15:06:37.178+05:30 DEBUG 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
+2025-03-26T15:06:37.180+05:30  INFO 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
+2025-03-26T15:06:43.309+05:30 DEBUG 14128 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2025-03-26T15:06:44.783+05:30  INFO 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 8.277 seconds (process running for 9.098)
+2025-03-26T15:06:44.786+05:30  INFO 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
+2025-03-26T15:06:44.788+05:30  INFO 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
+2025-03-26T15:06:44.790+05:30  INFO 14128 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
+2025-03-26T15:07:59.090+05:30 ERROR 14128 --- [AddressBook] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-20T14:11:03Z. Current time: 2025-03-24T15:38:22Z, a difference of 350839605 milliseconds.  Allowed clock skew: 0 milliseconds.
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-24T16:35:50Z. Current time: 2025-03-26T09:37:59Z, a difference of 147729083 milliseconds.  Allowed clock skew: 0 milliseconds.
 	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
 	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
 	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
@@ -126,689 +78,134 @@ io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-20T14:11:03Z. Curren
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2025-03-24T21:08:51.963+05:30  INFO 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 16532 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T21:08:51.966+05:30 DEBUG 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T21:08:51.967+05:30  INFO 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T21:08:57.253+05:30 DEBUG 16532 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T21:08:58.552+05:30  INFO 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 7.185 seconds (process running for 7.806)
-2025-03-24T21:08:58.558+05:30  INFO 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T21:08:58.559+05:30  INFO 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T21:08:58.560+05:30  INFO 16532 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T21:09:07.329+05:30 ERROR 16532 --- [AddressBook] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-03-26T15:09:02.931+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:09:33.382+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:09:34.843+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:09:34.986+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:09:35.161+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:09:35.391+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:09:36.949+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:11:09.270+05:30 ERROR 14128 --- [AddressBook] [AMQP Connection 0:0:0:0:0:0:0:1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occurred
 
-io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-20T14:11:03Z. Current time: 2025-03-24T15:39:07Z, a difference of 350884325 milliseconds.  Allowed clock skew: 0 milliseconds.
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at com.example.AddressBook.security.JwtUtil.extractAllClaims(JwtUtil.java:46) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractClaim(JwtUtil.java:38) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractUsername(JwtUtil.java:34) ~[classes/:na]
-	at com.example.AddressBook.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:322) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[na:na]
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:294) ~[na:na]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:199) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:687) ~[amqp-client-5.19.0.jar:5.19.0]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2025-03-24T21:09:35.345+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T21:09:35.677+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T21:09:35.678+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T21:10:27.350+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:20:50.419+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:21:16.546+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:21:39.194+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:21:42.244+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:21:43.767+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:09.688+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:17.472+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:19.999+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:21.405+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:22.634+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:32.213+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:52.199+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:55.453+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:22:59.245+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:23:06.263+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:23:17.521+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:23:27.552+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:24:16.182+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:24:18.615+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:24:46.922+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:27:40.664+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:27:43.360+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:28:16.294+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:29:58.512+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:10.198+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:12.040+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:12.172+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:12.352+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:12.505+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:12.687+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:12.855+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:13.091+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:13.447+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:30:48.985+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:31:13.439+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:31:44.197+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:31:54.759+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:32:20.789+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:32:24.249+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:32:50.844+05:30 ERROR 16532 --- [AddressBook] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-03-26T15:11:09.444+05:30 ERROR 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
 
-io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at com.example.AddressBook.security.JwtUtil.extractAllClaims(JwtUtil.java:46) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractClaim(JwtUtil.java:38) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractUsername(JwtUtil.java:34) ~[classes/:na]
-	at com.example.AddressBook.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:727) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:672) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:645) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:534) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1503) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2255) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2202) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1960) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1924) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322) ~[spring-rabbit-3.1.3.jar:3.1.3]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:140) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:136) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:406) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1251) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.19.0.jar:5.19.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	... 15 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:552) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:336) ~[amqp-client-5.19.0.jar:5.19.0]
+	... 20 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:296) ~[na:na]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:199) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:687) ~[amqp-client-5.19.0.jar:5.19.0]
+	... 1 common frames omitted
 
-2025-03-24T21:33:10.709+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T21:33:10.823+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T21:33:10.824+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T21:33:10.857+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:36:17.074+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:36:20.821+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:39:05.217+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:39:06.801+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:39:10.898+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:39:38.377+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:39:53.809+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:39:56.508+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:04.216+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:09.285+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:17.727+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:19.462+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:21.622+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:27.117+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:30.857+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:38.927+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:40:41.388+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:41:01.540+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:44:53.300+05:30 ERROR 16532 --- [AddressBook] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-03-26T15:11:10.322+05:30 ERROR 14128 --- [AddressBook] [container-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
 
-io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at com.example.AddressBook.security.JwtUtil.extractAllClaims(JwtUtil.java:46) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractClaim(JwtUtil.java:38) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractUsername(JwtUtil.java:34) ~[classes/:na]
-	at com.example.AddressBook.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:727) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2249) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2202) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1960) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1924) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322) ~[spring-rabbit-3.1.3.jar:3.1.3]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249) ~[amqp-client-5.19.0.jar:5.19.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.19.0.jar:5.19.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.3.jar:3.1.3]
+	... 12 common frames omitted
 
-2025-03-24T21:45:29.258+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T21:45:29.427+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T21:45:29.427+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T21:45:29.599+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:46:56.742+05:30  INFO 16532 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:48:44.029+05:30  INFO 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 20192 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T21:48:44.033+05:30 DEBUG 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T21:48:44.034+05:30  INFO 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T21:48:51.616+05:30 DEBUG 20192 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T21:48:53.937+05:30  INFO 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 11.014 seconds (process running for 11.916)
-2025-03-24T21:48:53.952+05:30  INFO 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T21:48:53.956+05:30  INFO 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T21:48:53.956+05:30  INFO 20192 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T21:49:06.713+05:30  INFO 20192 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:59:07.800+05:30  INFO 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 27228 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T21:59:07.803+05:30 DEBUG 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T21:59:07.805+05:30  INFO 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T21:59:14.798+05:30 DEBUG 27228 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T21:59:16.945+05:30  INFO 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.822 seconds (process running for 10.439)
-2025-03-24T21:59:16.949+05:30  INFO 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T21:59:16.952+05:30  INFO 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T21:59:16.952+05:30  INFO 27228 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T21:59:40.467+05:30  INFO 27228 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T21:59:42.470+05:30  INFO 27228 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:02:49.876+05:30  INFO 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 20908 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:02:49.881+05:30 DEBUG 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:02:49.883+05:30  INFO 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:02:57.376+05:30 DEBUG 20908 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:02:59.164+05:30  INFO 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 10.033 seconds (process running for 10.658)
-2025-03-24T22:02:59.177+05:30  INFO 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:02:59.184+05:30  INFO 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:02:59.185+05:30  INFO 20908 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:03:35.046+05:30  INFO 20908 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:03:52.869+05:30  INFO 20908 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:05:15.858+05:30  INFO 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 27972 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:05:15.861+05:30 DEBUG 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:05:15.862+05:30  INFO 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:05:22.454+05:30 DEBUG 27972 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:05:24.563+05:30  INFO 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.385 seconds (process running for 9.969)
-2025-03-24T22:05:24.579+05:30  INFO 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:05:24.586+05:30  INFO 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:05:24.588+05:30  INFO 27972 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:05:32.176+05:30  INFO 27972 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:08:48.868+05:30  INFO 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 23620 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:08:48.871+05:30 DEBUG 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:08:48.873+05:30  INFO 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:08:55.904+05:30 DEBUG 23620 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:08:57.970+05:30  INFO 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.779 seconds (process running for 10.346)
-2025-03-24T22:08:57.979+05:30  INFO 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:08:57.987+05:30  INFO 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:08:57.988+05:30  INFO 23620 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:09:16.378+05:30  INFO 23620 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:09:57.921+05:30  INFO 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 27000 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:09:57.925+05:30 DEBUG 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:09:57.926+05:30  INFO 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:10:05.106+05:30 DEBUG 27000 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:10:07.281+05:30  INFO 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.988 seconds (process running for 10.559)
-2025-03-24T22:10:07.294+05:30  INFO 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:10:07.305+05:30  INFO 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:10:07.308+05:30  INFO 27000 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:14:53.647+05:30  INFO 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 22208 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:14:53.656+05:30 DEBUG 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:14:53.657+05:30  INFO 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:15:00.340+05:30 DEBUG 22208 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:15:02.529+05:30  INFO 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.581 seconds (process running for 10.181)
-2025-03-24T22:15:02.536+05:30  INFO 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:15:02.544+05:30  INFO 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:15:02.546+05:30  INFO 22208 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:15:07.812+05:30  INFO 22208 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:20:27.429+05:30  INFO 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 10080 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:20:27.432+05:30 DEBUG 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:20:27.433+05:30  INFO 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:20:34.418+05:30 DEBUG 10080 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:20:36.710+05:30  INFO 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.96 seconds (process running for 10.564)
-2025-03-24T22:20:36.729+05:30  INFO 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:20:36.732+05:30  INFO 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:20:36.732+05:30  INFO 10080 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:20:45.486+05:30  INFO 10080 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:20:52.541+05:30 ERROR 10080 --- [AddressBook] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-
-io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-24T16:39:35Z. Current time: 2025-03-24T16:50:52Z, a difference of 677538 milliseconds.  Allowed clock skew: 0 milliseconds.
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at com.example.AddressBook.security.JwtUtil.extractAllClaims(JwtUtil.java:46) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractClaim(JwtUtil.java:38) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractUsername(JwtUtil.java:34) ~[classes/:na]
-	at com.example.AddressBook.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2025-03-24T22:21:03.201+05:30  INFO 10080 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T22:21:03.311+05:30  INFO 10080 --- [AddressBook] [http-nio-8080-exec-9] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T22:21:03.311+05:30  INFO 10080 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T22:21:03.358+05:30  INFO 10080 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:23:49.715+05:30 ERROR 10080 --- [AddressBook] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-
-io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-24T16:39:35Z. Current time: 2025-03-24T16:53:49Z, a difference of 854714 milliseconds.  Allowed clock skew: 0 milliseconds.
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
-	at com.example.AddressBook.security.JwtUtil.extractAllClaims(JwtUtil.java:46) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractClaim(JwtUtil.java:38) ~[classes/:na]
-	at com.example.AddressBook.security.JwtUtil.extractUsername(JwtUtil.java:34) ~[classes/:na]
-	at com.example.AddressBook.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2025-03-24T22:24:00.576+05:30  INFO 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 20268 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:24:00.581+05:30 DEBUG 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:24:00.582+05:30  INFO 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:24:07.465+05:30 DEBUG 20268 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:24:09.551+05:30  INFO 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.639 seconds (process running for 10.279)
-2025-03-24T22:24:09.572+05:30  INFO 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:24:09.575+05:30  INFO 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:24:09.575+05:30  INFO 20268 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:25:02.885+05:30  INFO 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 27824 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:25:02.888+05:30 DEBUG 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:25:02.890+05:30  INFO 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:25:09.440+05:30 DEBUG 27824 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:25:11.412+05:30  INFO 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.172 seconds (process running for 9.917)
-2025-03-24T22:25:11.421+05:30  INFO 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:25:11.424+05:30  INFO 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:25:11.424+05:30  INFO 27824 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:32:02.567+05:30  INFO 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 12452 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:32:02.571+05:30 DEBUG 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:32:02.573+05:30  INFO 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:32:09.673+05:30 DEBUG 12452 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:32:11.710+05:30  INFO 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.813 seconds (process running for 10.397)
-2025-03-24T22:32:11.716+05:30  INFO 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:32:11.719+05:30  INFO 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:32:11.719+05:30  INFO 12452 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:47:36.530+05:30  INFO 16016 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 16016 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:47:36.533+05:30 DEBUG 16016 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:47:36.534+05:30  INFO 16016 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:47:41.929+05:30 DEBUG 16016 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:47:41.979+05:30  WARN 16016 --- [AddressBook] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'service': Error creating bean with name 'addressBookService': Unsatisfied dependency expressed through field 'modelMapper': No qualifying bean of type 'org.modelmapper.ModelMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2025-03-24T22:47:42.030+05:30 ERROR 16016 --- [AddressBook] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field modelMapper in com.example.AddressBook.service.implimentation.AddressBookService required a bean of type 'org.modelmapper.ModelMapper' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'org.modelmapper.ModelMapper' in your configuration.
-
-2025-03-24T22:49:23.726+05:30  INFO 3584 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 3584 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:49:23.728+05:30 DEBUG 3584 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:49:23.729+05:30  INFO 3584 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:49:28.232+05:30 DEBUG 3584 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:49:28.298+05:30  WARN 3584 --- [AddressBook] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'service': Error creating bean with name 'addressBookService': Unsatisfied dependency expressed through field 'redisTemplate': No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2025-03-24T22:49:28.351+05:30 ERROR 3584 --- [AddressBook] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field redisTemplate in com.example.AddressBook.service.implimentation.AddressBookService required a bean of type 'org.springframework.data.redis.core.RedisTemplate' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'org.springframework.data.redis.core.RedisTemplate' in your configuration.
-
-2025-03-24T22:51:59.083+05:30  INFO 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 13384 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:51:59.086+05:30 DEBUG 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:51:59.086+05:30  INFO 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:52:03.816+05:30 DEBUG 13384 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:52:05.148+05:30  INFO 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 6.576 seconds (process running for 7.018)
-2025-03-24T22:52:05.151+05:30  INFO 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:52:05.153+05:30  INFO 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:52:05.153+05:30  INFO 13384 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:52:12.882+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:52:27.562+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T22:52:27.643+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-5] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T22:52:27.643+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T22:52:27.686+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:53:17.796+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
-2025-03-24T22:53:17.875+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-2] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
-2025-03-24T22:53:17.876+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
-2025-03-24T22:53:41.105+05:30  INFO 13384 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:07.467+05:30  INFO 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 23800 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T22:58:07.470+05:30 DEBUG 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T22:58:07.471+05:30  INFO 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T22:58:12.245+05:30 DEBUG 23800 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T22:58:13.489+05:30  INFO 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 6.542 seconds (process running for 7.036)
-2025-03-24T22:58:13.492+05:30  INFO 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T22:58:13.495+05:30  INFO 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T22:58:13.495+05:30  INFO 23800 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T22:58:19.975+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:20.698+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:20.838+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:21.017+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:21.194+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:21.367+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:21.502+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:21.719+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:21.930+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:58:58.994+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:59:44.060+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T22:59:45.321+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:00:19.748+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:01:30.326+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:01:30.532+05:30 ERROR 23800 --- [AddressBook] [AMQP Connection 0:0:0:0:0:0:0:1:5672] o.s.a.r.c.CachingConnectionFactory       : Shutdown Signal: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no exchange 'AddressBookExchange' in vhost '/', class-id=60, method-id=40)
-2025-03-24T23:01:37.281+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:08:21.587+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:09:29.208+05:30  INFO 23800 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:10:05.429+05:30  INFO 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 10468 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T23:10:05.431+05:30 DEBUG 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T23:10:05.433+05:30  INFO 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T23:10:10.231+05:30 DEBUG 10468 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T23:10:11.504+05:30  INFO 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 6.582 seconds (process running for 7.102)
-2025-03-24T23:10:11.507+05:30  INFO 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T23:10:11.510+05:30  INFO 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T23:10:11.510+05:30  INFO 10468 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T23:10:17.002+05:30  INFO 10468 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:11:14.613+05:30  INFO 10468 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:11:19.501+05:30  INFO 10468 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:11:59.441+05:30  INFO 10468 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:14:41.531+05:30  INFO 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 27488 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
-2025-03-24T23:14:41.533+05:30 DEBUG 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
-2025-03-24T23:14:41.535+05:30  INFO 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
-2025-03-24T23:14:46.485+05:30 DEBUG 27488 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-24T23:14:47.880+05:30  INFO 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 6.873 seconds (process running for 7.332)
-2025-03-24T23:14:47.883+05:30  INFO 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
-2025-03-24T23:14:47.885+05:30  INFO 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
-2025-03-24T23:14:47.886+05:30  INFO 27488 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
-2025-03-24T23:14:52.158+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:15:21.350+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:24:29.944+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:24:38.869+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:24:44.801+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:26:35.841+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:26:43.989+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
-2025-03-24T23:28:05.166+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : 🔐 Login attempt: naitikvaish04@gmail.com
-2025-03-24T23:28:05.174+05:30  WARN 27488 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : ❌ Login failed for user: naitikvaish04@gmail.com
-2025-03-24T23:28:17.443+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.controller.UserController          : 🔐 Login attempt: naitikvaish04@gmail.com
-2025-03-24T23:28:17.447+05:30  WARN 27488 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.controller.UserController          : ❌ Login failed for user: naitikvaish04@gmail.com
-2025-03-24T23:51:37.688+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:51:37.976+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-8] c.e.AddressBook.service.UserService      : User registered successfully: ID = 3
-2025-03-24T23:51:39.099+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:51:39.106+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:51:52.763+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : ✅ Registration successful for: naitikvaish04@gmail.com
-2025-03-24T23:52:01.075+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:52:01.082+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:26.538+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:52:26.541+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-5] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:27.302+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:52:27.308+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:27.492+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:52:27.496+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-9] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:27.716+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish04@gmail.com
-2025-03-24T23:52:27.722+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:34.537+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish26@gmail.com
-2025-03-24T23:52:34.608+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-1] c.e.AddressBook.service.UserService      : User registered successfully: ID = 4
-2025-03-24T23:52:36.040+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish26@gmail.com
-2025-03-24T23:52:36.045+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:36.259+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.controller.UserController          : 🚀 Register attempt: naitikvaish26@gmail.com
-2025-03-24T23:52:36.264+05:30 ERROR 27488 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.controller.UserController          : ❌ Registration failed: Email is already in use.
-2025-03-24T23:52:48.740+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : ✅ Registration successful for: naitikvaish26@gmail.com
-2025-03-24T23:53:21.460+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.controller.UserController          : 🔐 Login attempt: naitikvaish26@gmail.com
-2025-03-24T23:53:21.603+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-6] c.e.AddressBook.service.UserService      : User logged in: naitikvaish26@gmail.com
-2025-03-24T23:53:21.603+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.controller.UserController          : ✅ Login successful for user: naitikvaish26@gmail.com
-2025-03-24T23:53:21.703+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-10] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: naitikvaish26@gmail.com
-2025-03-24T23:55:22.358+05:30  INFO 27488 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: naitikvaish26@gmail.com
+2025-03-26T15:11:14.605+05:30 ERROR 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-03-26T15:11:15.414+05:30  WARN 14128 --- [AddressBook] [container-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:15.461+05:30 ERROR 14128 --- [AddressBook] [container-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-03-26T15:11:19.723+05:30  WARN 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:19.726+05:30 ERROR 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-03-26T15:11:20.567+05:30  WARN 14128 --- [AddressBook] [container-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:20.583+05:30 ERROR 14128 --- [AddressBook] [container-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-03-26T15:11:24.801+05:30  WARN 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:24.817+05:30 ERROR 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-03-26T15:11:25.655+05:30  WARN 14128 --- [AddressBook] [container-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:25.658+05:30 ERROR 14128 --- [AddressBook] [container-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-03-26T15:11:29.896+05:30  WARN 14128 --- [AddressBook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:30.755+05:30  WARN 14128 --- [AddressBook] [container-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-03-26T15:11:31.066+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-6] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:11:57.566+05:30  INFO 14128 --- [AddressBook] [http-nio-8080-exec-7] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:12:41.450+05:30  INFO 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 18.0.2.1 with PID 11028 (C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App\target\classes started by nilesh pandey in C:\Users\nilesh pandey\OneDrive\Desktop\AddressBook_App)
+2025-03-26T15:12:41.454+05:30 DEBUG 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Running with Spring Boot v3.2.4, Spring v6.1.5
+2025-03-26T15:12:41.455+05:30  INFO 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : The following 1 profile is active: "dev"
+2025-03-26T15:12:48.246+05:30 DEBUG 11028 --- [AddressBook] [main] c.e.A.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2025-03-26T15:12:50.159+05:30  INFO 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : Started AddressBookApplication in 9.458 seconds (process running for 10.264)
+2025-03-26T15:12:50.166+05:30  INFO 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book application is running in 'DEV' environment
+2025-03-26T15:12:50.170+05:30  INFO 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Address Book DB user is 'addressuser'
+2025-03-26T15:12:50.171+05:30  INFO 11028 --- [AddressBook] [main] c.e.AddressBook.AddressBookApplication   : ✅ Redis is configured at 'localhost:6379'
+2025-03-26T15:13:24.575+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : 🔐 Login attempt: nileshpandey1709@gmail.com
+2025-03-26T15:13:24.875+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-2] c.e.AddressBook.service.UserService      : User logged in: nileshpandey1709@gmail.com
+2025-03-26T15:13:24.876+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-2] c.e.A.controller.UserController          : ✅ Login successful for user: nileshpandey1709@gmail.com
+2025-03-26T15:13:24.963+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-4] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: nileshpandey1709@gmail.com
+2025-03-26T15:16:19.167+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : 🚀 Register attempt: arvindpandey612@gmail.com
+2025-03-26T15:16:19.373+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-8] c.e.AddressBook.service.UserService      : User registered successfully: ID = 5
+2025-03-26T15:16:37.520+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-8] c.e.A.controller.UserController          : ✅ Registration successful for: arvindpandey612@gmail.com
+2025-03-26T15:18:13.782+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : 🔐 Login attempt: arvindpandey612@gmail.com
+2025-03-26T15:18:13.886+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-1] c.e.AddressBook.service.UserService      : User logged in: arvindpandey612@gmail.com
+2025-03-26T15:18:13.888+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-1] c.e.A.controller.UserController          : ✅ Login successful for user: arvindpandey612@gmail.com
+2025-03-26T15:18:13.926+05:30  INFO 11028 --- [AddressBook] [http-nio-8080-exec-3] c.e.A.security.JwtAuthenticationFilter   : Authenticated user: arvindpandey612@gmail.com
